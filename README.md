@@ -1,4 +1,8 @@
-ping
 ====
+name: Ping 
+  hosts: windows 
 
-PING PLAYBOOK 
+  tasks:
+  - name: ping
+    win_ping:
+
